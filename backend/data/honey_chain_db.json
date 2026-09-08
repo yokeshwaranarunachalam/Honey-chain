@@ -1,0 +1,677 @@
+{
+  "hives": [
+    {
+      "id": "HIVE-KA-101",
+      "beekeeperName": "Ramesh Gowda",
+      "apiaryName": "Coorg Valley Apiaries",
+      "location": "Madikeri, Coorg, Karnataka",
+      "stateCode": "KA",
+      "floraType": "Wild Eucalyptus & Coffee Nectar",
+      "gpsCoords": "12.4244° N, 75.7382° E",
+      "activeHives": 24,
+      "registeredAt": "2025-11-10T08:30:00Z"
+    },
+    {
+      "id": "HIVE-PB-204",
+      "beekeeperName": "Harpreet Singh",
+      "apiaryName": "Doaba Mustard Apiaries",
+      "location": "Jalandhar, Punjab",
+      "stateCode": "PB",
+      "floraType": "Mustard Blossom",
+      "gpsCoords": "31.3260° N, 75.5762° E",
+      "activeHives": 40,
+      "registeredAt": "2025-12-01T09:15:00Z"
+    },
+    {
+      "id": "HIVE-HP-309",
+      "beekeeperName": "Sunita Sharma",
+      "apiaryName": "Himalayan Organic Flora",
+      "location": "Kullu Valley, Himachal Pradesh",
+      "stateCode": "HP",
+      "floraType": "Wild Mountain Wildflower & Acacia",
+      "gpsCoords": "31.9579° N, 77.1095° E",
+      "activeHives": 18,
+      "registeredAt": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "HIVE-MH-412",
+      "beekeeperName": "Anil Deshmukh",
+      "apiaryName": "Sahyadri Honey Farms",
+      "location": "Mahabaleshwar, Maharashtra",
+      "stateCode": "MH",
+      "floraType": "Strawberry & Jamun Blossom",
+      "gpsCoords": "17.9242° N, 73.6586° E",
+      "activeHives": 30,
+      "registeredAt": "2026-02-01T11:20:00Z"
+    },
+    {
+      "id": "HIVE-TN-515",
+      "beekeeperName": "Murugan K.",
+      "apiaryName": "Palani Hills Beekeeping",
+      "location": "Kodaikanal, Tamil Nadu",
+      "stateCode": "TN",
+      "floraType": "Kurinji & Forest Flora",
+      "gpsCoords": "10.2381° N, 77.4892° E",
+      "activeHives": 15,
+      "registeredAt": "2026-02-12T14:45:00Z"
+    },
+    {
+      "id": "HIVE-WB-620",
+      "beekeeperName": "Subhash Mondal",
+      "apiaryName": "Sundarbans Wild Honey Coop",
+      "location": "Gosaba, Sundarbans, West Bengal",
+      "stateCode": "WB",
+      "floraType": "Mangrove Khalsi Flower",
+      "gpsCoords": "22.1652° N, 88.8066° E",
+      "activeHives": 12,
+      "registeredAt": "2026-02-20T07:10:00Z"
+    }
+  ],
+  "batches": [
+    {
+      "id": "HC-2026-KA-00417",
+      "batchId": "HC-2026-KA-00417",
+      "hiveId": "HIVE-KA-101",
+      "beekeeperName": "Ramesh Gowda",
+      "apiaryName": "Coorg Valley Apiaries",
+      "location": "Madikeri, Coorg, Karnataka",
+      "stateCode": "KA",
+      "floraType": "Wild Eucalyptus & Coffee Nectar",
+      "gpsCoords": "12.4244° N, 75.7382° E",
+      "harvestDate": "2026-02-15",
+      "quantityKg": 450,
+      "notes": "First spring harvest of raw Coorg blossom nectar.",
+      "status": "VERIFIED",
+      "latestBlockHash": "0448501d45289c50af43c067396d4b18e8dfbbbbd6fb3bde8b772b5b62f186ce",
+      "ipfsCid": "Qm240bfce4b90525e887251d8ff5b9c36f0f80670667bc",
+      "labValidation": {
+        "isVerified": true,
+        "status": "VERIFIED",
+        "violationReasons": [],
+        "fssaiComplianceScore": 100,
+        "evaluatedAt": "2026-09-08T10:02:23.449Z"
+      },
+      "createdAt": "2026-09-08T10:02:23.452Z"
+    },
+    {
+      "id": "HC-2026-PB-00892",
+      "batchId": "HC-2026-PB-00892",
+      "hiveId": "HIVE-PB-204",
+      "beekeeperName": "Harpreet Singh",
+      "apiaryName": "Doaba Mustard Apiaries",
+      "location": "Jalandhar, Punjab",
+      "stateCode": "PB",
+      "floraType": "Mustard Blossom",
+      "gpsCoords": "31.3260° N, 75.5762° E",
+      "harvestDate": "2026-02-20",
+      "quantityKg": 820,
+      "notes": "Bulk mustard harvest. High viscosity.",
+      "status": "FLAGGED",
+      "latestBlockHash": "a326980bf6c2ad168b74738385388548c1bf6fd86f4954c27140f16849eb561a",
+      "ipfsCid": "Qm31efcc7ee3eed7b1b124a363eb42360ee63a232daefa",
+      "labValidation": {
+        "isVerified": false,
+        "status": "FLAGGED",
+        "violationReasons": [
+          "Moisture level 22.4% exceeds FSSAI threshold (Max 20%). High risk of fermentation.",
+          "HMF level 110 mg/kg exceeds FSSAI limit (Max 80 mg/kg). Indicates excessive heat treatment or old degraded honey.",
+          "C4 Sugar test showed 14.5% adulteration (Max allowed 7%). Detection of synthetic C4 plant sugars (Corn/Cane syrup).",
+          "Fructose/Glucose ratio 0.88 is below requirement (Min 1). Floral nectar ratio is distorted."
+        ],
+        "fssaiComplianceScore": 0,
+        "evaluatedAt": "2026-09-08T10:02:23.452Z"
+      },
+      "createdAt": "2026-09-08T10:02:23.457Z"
+    },
+    {
+      "id": "HC-2026-HP-00105",
+      "batchId": "HC-2026-HP-00105",
+      "hiveId": "HIVE-HP-309",
+      "beekeeperName": "Sunita Sharma",
+      "apiaryName": "Himalayan Organic Flora",
+      "location": "Kullu Valley, Himachal Pradesh",
+      "stateCode": "HP",
+      "floraType": "Wild Mountain Wildflower & Acacia",
+      "gpsCoords": "31.9579° N, 77.1095° E",
+      "harvestDate": "2026-02-25",
+      "quantityKg": 280,
+      "notes": "Premium high-altitude organic acacia blend.",
+      "status": "VERIFIED",
+      "latestBlockHash": "f40d2603101af96e1c7a5b3574936265258243f62267d51a51053bd078c474bf",
+      "ipfsCid": "Qm237b028950e62218e0c82ae6114c45a1be9386a70394",
+      "labValidation": {
+        "isVerified": true,
+        "status": "VERIFIED",
+        "violationReasons": [],
+        "fssaiComplianceScore": 100,
+        "evaluatedAt": "2026-09-08T10:02:23.457Z"
+      },
+      "createdAt": "2026-09-08T10:02:23.460Z"
+    },
+    {
+      "id": "HC-2026-MH-00334",
+      "batchId": "HC-2026-MH-00334",
+      "hiveId": "HIVE-MH-412",
+      "beekeeperName": "Anil Deshmukh",
+      "apiaryName": "Sahyadri Honey Farms",
+      "location": "Mahabaleshwar, Maharashtra",
+      "stateCode": "MH",
+      "floraType": "Strawberry & Jamun Blossom",
+      "gpsCoords": "17.9242° N, 73.6586° E",
+      "harvestDate": "2026-03-01",
+      "quantityKg": 350,
+      "notes": "Mahabaleshwar forest collection. Sample awaiting lab processing.",
+      "status": "PENDING",
+      "latestBlockHash": "32ba89fcae6240d613e98c6fab3dadae0673203a1df92a851bc4a0513fa52bf5",
+      "ipfsCid": null,
+      "labValidation": null,
+      "createdAt": "2026-09-08T10:02:23.460Z"
+    },
+    {
+      "id": "HC-2026-TN-00512",
+      "batchId": "HC-2026-TN-00512",
+      "hiveId": "HIVE-TN-515",
+      "beekeeperName": "Murugan K.",
+      "apiaryName": "Palani Hills Beekeeping",
+      "location": "Kodaikanal, Tamil Nadu",
+      "stateCode": "TN",
+      "floraType": "Kurinji & Forest Flora",
+      "gpsCoords": "10.2381° N, 77.4892° E",
+      "harvestDate": "2026-03-02",
+      "quantityKg": 190,
+      "notes": "Kodaikanal mountain flora.",
+      "status": "FLAGGED",
+      "latestBlockHash": "ec53dc8720631724e7d2f7262ed1a1fc6dcc51f3abd8d71e201ad135e87e14b6",
+      "ipfsCid": "Qmf45dc4b18252c189713d0ad97573c0fdd7714c882902",
+      "labValidation": {
+        "isVerified": false,
+        "status": "FLAGGED",
+        "violationReasons": [
+          "C4 Sugar test showed 12% adulteration (Max allowed 7%). Detection of synthetic C4 plant sugars (Corn/Cane syrup)."
+        ],
+        "fssaiComplianceScore": 65,
+        "evaluatedAt": "2026-09-08T10:02:23.460Z"
+      },
+      "createdAt": "2026-09-08T10:02:23.462Z"
+    },
+    {
+      "id": "HC-2026-WB-00620",
+      "batchId": "HC-2026-WB-00620",
+      "hiveId": "HIVE-WB-620",
+      "beekeeperName": "Subhash Mondal",
+      "apiaryName": "Sundarbans Wild Honey Coop",
+      "location": "Gosaba, Sundarbans, West Bengal",
+      "stateCode": "WB",
+      "floraType": "Mangrove Khalsi Flower",
+      "gpsCoords": "22.1652° N, 88.8066° E",
+      "harvestDate": "2026-03-05",
+      "quantityKg": 310,
+      "notes": "Rare Sundarbans mangrove Khalsi honey harvest.",
+      "status": "VERIFIED",
+      "latestBlockHash": "a8842bbe3bd75a1c6da8515902290ac2a0631b6edc6621cba59efb02547b594f",
+      "ipfsCid": "Qm7c3c2d7345bb06a4e4e1fc5c59cb37a4f3fab67c6e4d",
+      "labValidation": {
+        "isVerified": true,
+        "status": "VERIFIED",
+        "violationReasons": [],
+        "fssaiComplianceScore": 100,
+        "evaluatedAt": "2026-09-08T10:02:23.463Z"
+      },
+      "createdAt": "2026-09-08T10:02:23.464Z"
+    }
+  ],
+  "lab_reports": [
+    {
+      "id": "LAB-REP-HC-2026-KA-00417",
+      "batchId": "HC-2026-KA-00417",
+      "moisture": 17.5,
+      "hmf": 24,
+      "c4Sugars": 1.2,
+      "fgRatio": 1.18,
+      "testedBy": "Dr. A. K. Varma (NABL Accredited Lab, Bengaluru)",
+      "labName": "Equinox Food Labs",
+      "testDate": "2026-02-18",
+      "validation": {
+        "isVerified": true,
+        "status": "VERIFIED",
+        "violationReasons": [],
+        "fssaiComplianceScore": 100,
+        "evaluatedAt": "2026-09-08T10:02:23.449Z"
+      },
+      "ipfsCid": "Qm240bfce4b90525e887251d8ff5b9c36f0f80670667bc",
+      "ipfsGatewayUrl": "https://ipfs.io/ipfs/Qm240bfce4b90525e887251d8ff5b9c36f0f80670667bc"
+    },
+    {
+      "id": "LAB-REP-HC-2026-PB-00892",
+      "batchId": "HC-2026-PB-00892",
+      "moisture": 22.4,
+      "hmf": 110,
+      "c4Sugars": 14.5,
+      "fgRatio": 0.88,
+      "testedBy": "R. K. Grover",
+      "labName": "Punjab Food Safety Analytical Testing Center",
+      "testDate": "2026-02-22",
+      "validation": {
+        "isVerified": false,
+        "status": "FLAGGED",
+        "violationReasons": [
+          "Moisture level 22.4% exceeds FSSAI threshold (Max 20%). High risk of fermentation.",
+          "HMF level 110 mg/kg exceeds FSSAI limit (Max 80 mg/kg). Indicates excessive heat treatment or old degraded honey.",
+          "C4 Sugar test showed 14.5% adulteration (Max allowed 7%). Detection of synthetic C4 plant sugars (Corn/Cane syrup).",
+          "Fructose/Glucose ratio 0.88 is below requirement (Min 1). Floral nectar ratio is distorted."
+        ],
+        "fssaiComplianceScore": 0,
+        "evaluatedAt": "2026-09-08T10:02:23.452Z"
+      },
+      "ipfsCid": "Qm31efcc7ee3eed7b1b124a363eb42360ee63a232daefa",
+      "ipfsGatewayUrl": "https://ipfs.io/ipfs/Qm31efcc7ee3eed7b1b124a363eb42360ee63a232daefa"
+    },
+    {
+      "id": "LAB-REP-HC-2026-HP-00105",
+      "batchId": "HC-2026-HP-00105",
+      "moisture": 16.8,
+      "hmf": 15.2,
+      "c4Sugars": 0.5,
+      "fgRatio": 1.25,
+      "testedBy": "Dr. Meera Sen",
+      "labName": "Himalayan Bio-Tech Quality Assurances",
+      "testDate": "2026-02-27",
+      "validation": {
+        "isVerified": true,
+        "status": "VERIFIED",
+        "violationReasons": [],
+        "fssaiComplianceScore": 100,
+        "evaluatedAt": "2026-09-08T10:02:23.457Z"
+      },
+      "ipfsCid": "Qm237b028950e62218e0c82ae6114c45a1be9386a70394",
+      "ipfsGatewayUrl": "https://ipfs.io/ipfs/Qm237b028950e62218e0c82ae6114c45a1be9386a70394"
+    },
+    {
+      "id": "LAB-REP-HC-2026-TN-00512",
+      "batchId": "HC-2026-TN-00512",
+      "moisture": 19.1,
+      "hmf": 45,
+      "c4Sugars": 12,
+      "fgRatio": 1.05,
+      "testedBy": "S. Ramanathan",
+      "labName": "Southern Regional Food Quality Lab, Chennai",
+      "testDate": "2026-03-04",
+      "validation": {
+        "isVerified": false,
+        "status": "FLAGGED",
+        "violationReasons": [
+          "C4 Sugar test showed 12% adulteration (Max allowed 7%). Detection of synthetic C4 plant sugars (Corn/Cane syrup)."
+        ],
+        "fssaiComplianceScore": 65,
+        "evaluatedAt": "2026-09-08T10:02:23.460Z"
+      },
+      "ipfsCid": "Qmf45dc4b18252c189713d0ad97573c0fdd7714c882902",
+      "ipfsGatewayUrl": "https://ipfs.io/ipfs/Qmf45dc4b18252c189713d0ad97573c0fdd7714c882902"
+    },
+    {
+      "id": "LAB-REP-HC-2026-WB-00620",
+      "batchId": "HC-2026-WB-00620",
+      "moisture": 18.2,
+      "hmf": 42,
+      "c4Sugars": 2.1,
+      "fgRatio": 1.14,
+      "testedBy": "Dr. B. Das",
+      "labName": "Kolkata Central Food Laboratory",
+      "testDate": "2026-03-07",
+      "validation": {
+        "isVerified": true,
+        "status": "VERIFIED",
+        "violationReasons": [],
+        "fssaiComplianceScore": 100,
+        "evaluatedAt": "2026-09-08T10:02:23.463Z"
+      },
+      "ipfsCid": "Qm7c3c2d7345bb06a4e4e1fc5c59cb37a4f3fab67c6e4d",
+      "ipfsGatewayUrl": "https://ipfs.io/ipfs/Qm7c3c2d7345bb06a4e4e1fc5c59cb37a4f3fab67c6e4d"
+    }
+  ],
+  "blocks": [
+    {
+      "index": 0,
+      "batchId": "HC-2026-KA-00417",
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "a9509535bde30cc7adb986103126a768684c4ce338a0354f7eb2722da45b05cb",
+      "timestamp": "2026-09-08T10:02:23.445Z",
+      "eventType": "BATCH_GENESIS",
+      "data": {
+        "batchId": "HC-2026-KA-00417",
+        "beekeeperId": "Ramesh Gowda",
+        "hiveId": "HIVE-KA-101",
+        "systemNote": "Genesis record logged by Honey Chain protocol."
+      }
+    },
+    {
+      "index": 1,
+      "batchId": "HC-2026-KA-00417",
+      "previousHash": "a9509535bde30cc7adb986103126a768684c4ce338a0354f7eb2722da45b05cb",
+      "hash": "3e2500b20755229fbaa8f9f008f3f9ff5fdf357685c17227e1ecfdc04b6ed84a",
+      "timestamp": "2026-09-08T10:02:23.449Z",
+      "eventType": "HARVEST_LOGGED",
+      "data": {
+        "batchId": "HC-2026-KA-00417",
+        "beekeeperName": "Ramesh Gowda",
+        "apiaryName": "Coorg Valley Apiaries",
+        "location": "Madikeri, Coorg, Karnataka",
+        "harvestDate": "2026-02-15",
+        "quantityKg": 450,
+        "notes": "First spring harvest of raw Coorg blossom nectar."
+      }
+    },
+    {
+      "index": 2,
+      "batchId": "HC-2026-KA-00417",
+      "previousHash": "3e2500b20755229fbaa8f9f008f3f9ff5fdf357685c17227e1ecfdc04b6ed84a",
+      "hash": "bdf8a88bf83f732a4695918ff305db2dfd2e8f5c76ab9147421fcac3c9539c05",
+      "timestamp": "2026-09-08T10:02:23.452Z",
+      "eventType": "LAB_REPORT_SUBMITTED",
+      "data": {
+        "batchId": "HC-2026-KA-00417",
+        "ipfsCid": "Qm240bfce4b90525e887251d8ff5b9c36f0f80670667bc",
+        "labName": "Equinox Food Labs",
+        "testedBy": "Dr. A. K. Varma (NABL Accredited Lab, Bengaluru)"
+      }
+    },
+    {
+      "index": 3,
+      "batchId": "HC-2026-KA-00417",
+      "previousHash": "bdf8a88bf83f732a4695918ff305db2dfd2e8f5c76ab9147421fcac3c9539c05",
+      "hash": "0448501d45289c50af43c067396d4b18e8dfbbbbd6fb3bde8b772b5b62f186ce",
+      "timestamp": "2026-09-08T10:02:23.452Z",
+      "eventType": "SMART_CONTRACT_VERIFIED",
+      "data": {
+        "batchId": "HC-2026-KA-00417",
+        "status": "VERIFIED",
+        "isVerified": true,
+        "fssaiScore": 100,
+        "violations": [],
+        "ipfsCid": "Qm240bfce4b90525e887251d8ff5b9c36f0f80670667bc"
+      }
+    },
+    {
+      "index": 0,
+      "batchId": "HC-2026-PB-00892",
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "e234534f490dcf421ae0397a95473a5785be33bcb453f042b67f243e6f6485c6",
+      "timestamp": "2026-09-08T10:02:23.452Z",
+      "eventType": "BATCH_GENESIS",
+      "data": {
+        "batchId": "HC-2026-PB-00892",
+        "beekeeperId": "Harpreet Singh",
+        "hiveId": "HIVE-PB-204",
+        "systemNote": "Genesis record logged by Honey Chain protocol."
+      }
+    },
+    {
+      "index": 1,
+      "batchId": "HC-2026-PB-00892",
+      "previousHash": "e234534f490dcf421ae0397a95473a5785be33bcb453f042b67f243e6f6485c6",
+      "hash": "c3780df14ba3dc93c9d17671d0269ad95628560c78477c11c44deac756d55a96",
+      "timestamp": "2026-09-08T10:02:23.452Z",
+      "eventType": "HARVEST_LOGGED",
+      "data": {
+        "batchId": "HC-2026-PB-00892",
+        "beekeeperName": "Harpreet Singh",
+        "apiaryName": "Doaba Mustard Apiaries",
+        "location": "Jalandhar, Punjab",
+        "harvestDate": "2026-02-20",
+        "quantityKg": 820,
+        "notes": "Bulk mustard harvest. High viscosity."
+      }
+    },
+    {
+      "index": 2,
+      "batchId": "HC-2026-PB-00892",
+      "previousHash": "c3780df14ba3dc93c9d17671d0269ad95628560c78477c11c44deac756d55a96",
+      "hash": "8ef50d4e6bc49cc914eca2ff24d95bdf54a91be038491b24eb89d65217e4f876",
+      "timestamp": "2026-09-08T10:02:23.455Z",
+      "eventType": "LAB_REPORT_SUBMITTED",
+      "data": {
+        "batchId": "HC-2026-PB-00892",
+        "ipfsCid": "Qm31efcc7ee3eed7b1b124a363eb42360ee63a232daefa",
+        "labName": "Punjab Food Safety Analytical Testing Center",
+        "testedBy": "R. K. Grover"
+      }
+    },
+    {
+      "index": 3,
+      "batchId": "HC-2026-PB-00892",
+      "previousHash": "8ef50d4e6bc49cc914eca2ff24d95bdf54a91be038491b24eb89d65217e4f876",
+      "hash": "a326980bf6c2ad168b74738385388548c1bf6fd86f4954c27140f16849eb561a",
+      "timestamp": "2026-09-08T10:02:23.456Z",
+      "eventType": "SMART_CONTRACT_VERIFIED",
+      "data": {
+        "batchId": "HC-2026-PB-00892",
+        "status": "FLAGGED",
+        "isVerified": false,
+        "fssaiScore": 0,
+        "violations": [
+          "Moisture level 22.4% exceeds FSSAI threshold (Max 20%). High risk of fermentation.",
+          "HMF level 110 mg/kg exceeds FSSAI limit (Max 80 mg/kg). Indicates excessive heat treatment or old degraded honey.",
+          "C4 Sugar test showed 14.5% adulteration (Max allowed 7%). Detection of synthetic C4 plant sugars (Corn/Cane syrup).",
+          "Fructose/Glucose ratio 0.88 is below requirement (Min 1). Floral nectar ratio is distorted."
+        ],
+        "ipfsCid": "Qm31efcc7ee3eed7b1b124a363eb42360ee63a232daefa"
+      }
+    },
+    {
+      "index": 0,
+      "batchId": "HC-2026-HP-00105",
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "fa09c7feb462553da166ce57ac530bc6e6d2394cbc0a72f026a6e440ad5d53ab",
+      "timestamp": "2026-09-08T10:02:23.457Z",
+      "eventType": "BATCH_GENESIS",
+      "data": {
+        "batchId": "HC-2026-HP-00105",
+        "beekeeperId": "Sunita Sharma",
+        "hiveId": "HIVE-HP-309",
+        "systemNote": "Genesis record logged by Honey Chain protocol."
+      }
+    },
+    {
+      "index": 1,
+      "batchId": "HC-2026-HP-00105",
+      "previousHash": "fa09c7feb462553da166ce57ac530bc6e6d2394cbc0a72f026a6e440ad5d53ab",
+      "hash": "8afeddd337a70ad9b293ecf7fb612d93e4dc15820712528d8fe2d8aa0f5073d9",
+      "timestamp": "2026-09-08T10:02:23.457Z",
+      "eventType": "HARVEST_LOGGED",
+      "data": {
+        "batchId": "HC-2026-HP-00105",
+        "beekeeperName": "Sunita Sharma",
+        "apiaryName": "Himalayan Organic Flora",
+        "location": "Kullu Valley, Himachal Pradesh",
+        "harvestDate": "2026-02-25",
+        "quantityKg": 280,
+        "notes": "Premium high-altitude organic acacia blend."
+      }
+    },
+    {
+      "index": 2,
+      "batchId": "HC-2026-HP-00105",
+      "previousHash": "8afeddd337a70ad9b293ecf7fb612d93e4dc15820712528d8fe2d8aa0f5073d9",
+      "hash": "3a17b703d69e8964212e08cf8d7acf939eea68d04fb0f7703b4a66049ebef5de",
+      "timestamp": "2026-09-08T10:02:23.459Z",
+      "eventType": "LAB_REPORT_SUBMITTED",
+      "data": {
+        "batchId": "HC-2026-HP-00105",
+        "ipfsCid": "Qm237b028950e62218e0c82ae6114c45a1be9386a70394",
+        "labName": "Himalayan Bio-Tech Quality Assurances",
+        "testedBy": "Dr. Meera Sen"
+      }
+    },
+    {
+      "index": 3,
+      "batchId": "HC-2026-HP-00105",
+      "previousHash": "3a17b703d69e8964212e08cf8d7acf939eea68d04fb0f7703b4a66049ebef5de",
+      "hash": "f40d2603101af96e1c7a5b3574936265258243f62267d51a51053bd078c474bf",
+      "timestamp": "2026-09-08T10:02:23.460Z",
+      "eventType": "SMART_CONTRACT_VERIFIED",
+      "data": {
+        "batchId": "HC-2026-HP-00105",
+        "status": "VERIFIED",
+        "isVerified": true,
+        "fssaiScore": 100,
+        "violations": [],
+        "ipfsCid": "Qm237b028950e62218e0c82ae6114c45a1be9386a70394"
+      }
+    },
+    {
+      "index": 0,
+      "batchId": "HC-2026-MH-00334",
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "6b6cb58109141f1f300703bfb9ce7464da193b68d187f29ef4998c7cff806f7a",
+      "timestamp": "2026-09-08T10:02:23.460Z",
+      "eventType": "BATCH_GENESIS",
+      "data": {
+        "batchId": "HC-2026-MH-00334",
+        "beekeeperId": "Anil Deshmukh",
+        "hiveId": "HIVE-MH-412",
+        "systemNote": "Genesis record logged by Honey Chain protocol."
+      }
+    },
+    {
+      "index": 1,
+      "batchId": "HC-2026-MH-00334",
+      "previousHash": "6b6cb58109141f1f300703bfb9ce7464da193b68d187f29ef4998c7cff806f7a",
+      "hash": "32ba89fcae6240d613e98c6fab3dadae0673203a1df92a851bc4a0513fa52bf5",
+      "timestamp": "2026-09-08T10:02:23.460Z",
+      "eventType": "HARVEST_LOGGED",
+      "data": {
+        "batchId": "HC-2026-MH-00334",
+        "beekeeperName": "Anil Deshmukh",
+        "apiaryName": "Sahyadri Honey Farms",
+        "location": "Mahabaleshwar, Maharashtra",
+        "harvestDate": "2026-03-01",
+        "quantityKg": 350,
+        "notes": "Mahabaleshwar forest collection. Sample awaiting lab processing."
+      }
+    },
+    {
+      "index": 0,
+      "batchId": "HC-2026-TN-00512",
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "7a3c98793f5196d6a7fff59184457aeba745892cbcd1ebdb8dcea420e66dc873",
+      "timestamp": "2026-09-08T10:02:23.460Z",
+      "eventType": "BATCH_GENESIS",
+      "data": {
+        "batchId": "HC-2026-TN-00512",
+        "beekeeperId": "Murugan K.",
+        "hiveId": "HIVE-TN-515",
+        "systemNote": "Genesis record logged by Honey Chain protocol."
+      }
+    },
+    {
+      "index": 1,
+      "batchId": "HC-2026-TN-00512",
+      "previousHash": "7a3c98793f5196d6a7fff59184457aeba745892cbcd1ebdb8dcea420e66dc873",
+      "hash": "5af9e9678b4480746e0a4d37430b7136ecbe57473afe4c7e43c86041a3017a95",
+      "timestamp": "2026-09-08T10:02:23.460Z",
+      "eventType": "HARVEST_LOGGED",
+      "data": {
+        "batchId": "HC-2026-TN-00512",
+        "beekeeperName": "Murugan K.",
+        "apiaryName": "Palani Hills Beekeeping",
+        "location": "Kodaikanal, Tamil Nadu",
+        "harvestDate": "2026-03-02",
+        "quantityKg": 190,
+        "notes": "Kodaikanal mountain flora."
+      }
+    },
+    {
+      "index": 2,
+      "batchId": "HC-2026-TN-00512",
+      "previousHash": "5af9e9678b4480746e0a4d37430b7136ecbe57473afe4c7e43c86041a3017a95",
+      "hash": "34a1e5601d202fd13fc3d97c6d4ea9fecec64e6aaec6e4244fce1f3a4f0722f0",
+      "timestamp": "2026-09-08T10:02:23.462Z",
+      "eventType": "LAB_REPORT_SUBMITTED",
+      "data": {
+        "batchId": "HC-2026-TN-00512",
+        "ipfsCid": "Qmf45dc4b18252c189713d0ad97573c0fdd7714c882902",
+        "labName": "Southern Regional Food Quality Lab, Chennai",
+        "testedBy": "S. Ramanathan"
+      }
+    },
+    {
+      "index": 3,
+      "batchId": "HC-2026-TN-00512",
+      "previousHash": "34a1e5601d202fd13fc3d97c6d4ea9fecec64e6aaec6e4244fce1f3a4f0722f0",
+      "hash": "ec53dc8720631724e7d2f7262ed1a1fc6dcc51f3abd8d71e201ad135e87e14b6",
+      "timestamp": "2026-09-08T10:02:23.462Z",
+      "eventType": "SMART_CONTRACT_VERIFIED",
+      "data": {
+        "batchId": "HC-2026-TN-00512",
+        "status": "FLAGGED",
+        "isVerified": false,
+        "fssaiScore": 65,
+        "violations": [
+          "C4 Sugar test showed 12% adulteration (Max allowed 7%). Detection of synthetic C4 plant sugars (Corn/Cane syrup)."
+        ],
+        "ipfsCid": "Qmf45dc4b18252c189713d0ad97573c0fdd7714c882902"
+      }
+    },
+    {
+      "index": 0,
+      "batchId": "HC-2026-WB-00620",
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "8c278dfd6a579838714becce94ec56725dbb73bc502c021f59a64959f59be681",
+      "timestamp": "2026-09-08T10:02:23.462Z",
+      "eventType": "BATCH_GENESIS",
+      "data": {
+        "batchId": "HC-2026-WB-00620",
+        "beekeeperId": "Subhash Mondal",
+        "hiveId": "HIVE-WB-620",
+        "systemNote": "Genesis record logged by Honey Chain protocol."
+      }
+    },
+    {
+      "index": 1,
+      "batchId": "HC-2026-WB-00620",
+      "previousHash": "8c278dfd6a579838714becce94ec56725dbb73bc502c021f59a64959f59be681",
+      "hash": "3965edce113aece4ad24401f3014521718aa897b66ef9ddfde6310e8e1efabfb",
+      "timestamp": "2026-09-08T10:02:23.463Z",
+      "eventType": "HARVEST_LOGGED",
+      "data": {
+        "batchId": "HC-2026-WB-00620",
+        "beekeeperName": "Subhash Mondal",
+        "apiaryName": "Sundarbans Wild Honey Coop",
+        "location": "Gosaba, Sundarbans, West Bengal",
+        "harvestDate": "2026-03-05",
+        "quantityKg": 310,
+        "notes": "Rare Sundarbans mangrove Khalsi honey harvest."
+      }
+    },
+    {
+      "index": 2,
+      "batchId": "HC-2026-WB-00620",
+      "previousHash": "3965edce113aece4ad24401f3014521718aa897b66ef9ddfde6310e8e1efabfb",
+      "hash": "831274429d7096e676a8f924902eaafd95921e082b4bab4f1533a92100166bc0",
+      "timestamp": "2026-09-08T10:02:23.464Z",
+      "eventType": "LAB_REPORT_SUBMITTED",
+      "data": {
+        "batchId": "HC-2026-WB-00620",
+        "ipfsCid": "Qm7c3c2d7345bb06a4e4e1fc5c59cb37a4f3fab67c6e4d",
+        "labName": "Kolkata Central Food Laboratory",
+        "testedBy": "Dr. B. Das"
+      }
+    },
+    {
+      "index": 3,
+      "batchId": "HC-2026-WB-00620",
+      "previousHash": "831274429d7096e676a8f924902eaafd95921e082b4bab4f1533a92100166bc0",
+      "hash": "a8842bbe3bd75a1c6da8515902290ac2a0631b6edc6621cba59efb02547b594f",
+      "timestamp": "2026-09-08T10:02:23.464Z",
+      "eventType": "SMART_CONTRACT_VERIFIED",
+      "data": {
+        "batchId": "HC-2026-WB-00620",
+        "status": "VERIFIED",
+        "isVerified": true,
+        "fssaiScore": 100,
+        "violations": [],
+        "ipfsCid": "Qm7c3c2d7345bb06a4e4e1fc5c59cb37a4f3fab67c6e4d"
+      }
+    }
+  ]
+}
