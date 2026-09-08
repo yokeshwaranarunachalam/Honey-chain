@@ -1,0 +1,25 @@
+{
+  "name": "honey-chain",
+  "version": "1.0.0",
+  "description": "Blockchain-based Honey Traceability & Smart Beekeeping Platform (SIH 2026)",
+  "main": "backend/server.js",
+  "scripts": {
+    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": [
+    "blockchain",
+    "sih2026",
+    "honey-traceability",
+    "smart-contracts",
+    "ipfs"
+  ],
+  "author": "Team Hive and seek",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
